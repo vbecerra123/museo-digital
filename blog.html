@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Foro del Museo</title>
+    <script src="https://kit.fontawesome.com/7dd52547cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/principalEst.css">
+    <link rel="stylesheet" href="styles/blogEst.css">
+</head>
+<body>
+    <!-- header-menu -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>Museo de<b> La Memoria</b></h1>
+            </div>
+            <div class="menu" id="show-menu">
+                <nav>
+                    <ul>
+                        <li><a href="Articulo1.html">INICIO</a></li>
+                        <li class="menu-selected"><a href="#">EXHIBICIONES</a></li>
+                        <li><a href="articulo2.html">PROYECTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="icon-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header> 
+    
+    <div class="container-all" id="move-content">
+        <div class="blog-container-cover">
+            <div class="container-info-cover">
+                <h1>"Quien no conoce su historia, está condenado a repetirla"</h1>
+                <p>El pueblo colombiano tiene memoria. No olvida. No oculta. No niega. En cambio, perdona, sana y recuerda.</p>
+            </div>  
+        </div>
+        
+        <div class="container-post">
+            <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+            <input type="radio" id="PROYECTO" name="categories" value="PROYECTO">
+            <input type="radio" id="COLEGIO" name="categories" value="COLEGIO">
+            <input type="radio" id="MUSEO" name="categories" value="MUSEO">
+            <input type="radio" id="OBRAS" name="categories" value="OBRAS">
+            <input type="radio" id="PINTURAS" name="categories" value="PINTURAS">
+            <input type="radio" id="ARTES~PLASTICAS" name="categories" value="ARTES~PLASTICAS">
+            <input type="radio" id="OTRAS~EXHIBICIONES" name="categories" value="OTRAS~EXHIBICIONES">
+            
+            <div class="container-category">
+                <label for="TODOS">TODOS</label>
+                <label for="PROYECTO">PROYECTO</label>
+                <label for="COLEGIO">COLEGIO</label>
+                
+                <label for="OBRAS">OBRAS</label>
+                <label for="PINTURAS">PINTURAS</label>
+                <label for="ARTES~PLASTICAS">ARTES PLÁSTICAS</label>
+                <label for="OTRAS~EXHIBICIONES">OTRAS EXHIBICIONES</label>
+            </div>
+
+            <div class="posts">
+                <div class="post" data-category="PROYECTO">
+                    <div class="ctn-img">
+                        <img src="images/colegio2.jpg" alt="Imagen del proyecto">
+                    </div>
+                    <h2>¿Cómo surgió esta Página Web?</h2>
+                    <span>26 septiembre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>COLEGIO</li>
+                        <li>EL PROYECTO</li>
+                    </ul>
+                    <a href="Articulo1.html"><button>Leer más</button></a>
+                </div>
+                
+                <div class="post" data-category="COLEGIO">
+                    <div class="ctn-img">
+                        <img src="images/colegio4.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Aquí es donde todo empezó</h2>
+                    <span>26 septiembre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>COLEGIO</li>
+                        <li>MUSEO</li>
+                    </ul>
+                    <a href="Articulo1.html"><button>Ir al Artículo 2</button></a>
+                </div>
+
+                <div class="post" data-category="PROYECTO">
+                    <div class="ctn-img">
+                        <img src="images/trabajo.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Nuestro proyecto</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>PROYECTO</li>
+                        <li>COLEGIO</li>
+                    </ul>
+                    <a href="Articulo1.html"><button>Ir al Artículo 2</button></a>
+                </div>
+
+                <div class="post" data-category="ARTES~PLASTICAS">
+                    <div class="ctn-img">
+                        <img src="images/arte.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 1</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>PROYECTO</li>
+                    </ul>
+                    <a href="exhibicion1.html"><button>Ver más</button></a>
+                </div>
+                
+                <div class="post" data-category="OBRAS">
+                    <div class="ctn-img">
+                        <img src="images/obras.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 2</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>OBRAS</li>
+                    </ul>
+                    <a href="exhibicion2.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="OBRAS">
+                    <div class="ctn-img">
+                        <img src="images/obras.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 3</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>OBRAS</li>
+                    </ul>
+                    <a href="exhibicion3.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="ARTES~PLASTICAS">
+                    <div class="ctn-img">
+                        <img src="images/arte.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 4</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>OBRAS</li>
+                    </ul>
+                    <a href="exhibicion4.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="OBRAS">
+                    <div class="ctn-img">
+                        <img src="images/obras.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 5</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>OBRAS</li>
+                    </ul>
+                    <a href="exhibicion5.html"><button>Ver más</button></a>
+                </div>
+                
+                <div class="post" data-category="ARTES~PLASTICAS">
+                    <div class="ctn-img">
+                        <img src="images/arte.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 6</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>ARTES PLASTICAS</li>
+                    </ul>
+                    <a href="exhibicion6.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="ARTES~PLASTICAS">
+                    <div class="ctn-img">
+                        <img src="images/arte.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 7</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>ARTES PLASTICAS</li>
+                    </ul>
+                    <a href="exhibicion7.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="ARTES~PLASTICAS">
+                    <div class="ctn-img">
+                        <img src="images/arte.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 8</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>ARTES PLASTICAS</li>
+                    </ul>
+                    <a href="exhibicion8.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="ARTES~PLASTICAS">
+                    <div class="ctn-img">
+                        <img src="images/arte.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 9</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>ARTES PLASTICAS</li>
+                    </ul>
+                    <a href="exhibicion9.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="ARTES~PLASTICAS">
+                    <div class="ctn-img">
+                        <img src="images/arte.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 10</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>ARTES PLASTICAS</li>
+                    </ul>
+                    <a href="exhibicion10.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="PINTURAS">
+                    <div class="ctn-img">
+                        <img src="images/pintura.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 11</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>PINTURAS</li>
+                    </ul>
+                    <a href="exhibicion11.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="PINTURAS">
+                    <div class="ctn-img">
+                        <img src="images/pintura.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 12</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>PINTURAS</li>
+                    </ul>
+                    <a href="exhibicion12.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="PINTURAS">
+                    <div class="ctn-img">
+                        <img src="images/pintura.jpg" alt="Imagen del colegio">
+                    </div>
+                    <h2>Exhibición 13</h2>
+                    <span>20 de octubre - 10:00 am</span>
+                    <ul class="ctn-tag">
+                        <li>PINTURAS</li>
+                    </ul>
+                    <a href="exhibicion13.html"><button>Ver más</button></a>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="container-footer">
+            <footer>
+                <div class="logo-footer">
+                    <img src="images/logo.png" alt="Logo del Museo">
+                </div>      
+                <div class="redes-footer">
+                    <a href="https://www.facebook.com/colegiotomadamsied/?_rdc=1&_rdr"><i class="fa-brands fa-facebook icon-redes-footer"></i></a>
+                    <a href="https://www.instagram.com/colegiotomadamsied/"><i class="fa-brands fa-instagram icon-redes-footer"></i></a>
+                    <a href="https://www.youtube.com/channel/UCpDGIc_H0aN1LYY0ENbHoyw"><i class="fa-brands fa-youtube icon-redes-footer"></i></a>
+                </div>
+                <hr>
+                <h4>Esta página fue realizada en una colaboración entre las instituciones Tom Addams e ETITC de La Salle</h4>
+            </footer>
+        </div>
+
+        
+    </div>
+    
+    <script src="java/script.js"></script>
+
+    <script>
+        // JavaScript para el filtrado
+        document.querySelectorAll('input[name="categories"]').forEach((input) => {
+            input.addEventListener('change', () => {
+                const category = input.value;
+                document.querySelectorAll('.post').forEach((post) => {
+                    if (category === 'TODOS' || post.getAttribute('data-category') === category) {
+                        post.style.display = 'block';
+                    } else {
+                        post.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
